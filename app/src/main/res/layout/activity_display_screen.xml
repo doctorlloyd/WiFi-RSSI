@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="26dp"
+    android:layout_marginBottom="26dp"
+    android:layout_height="match_parent"
+    tools:context=".DisplayScreen">
+<ImageView
+    android:layout_width="match_parent"
+    android:id="@+id/signal_image"
+    android:src="@mipmap/no_signal"
+    android:layout_marginTop="100dp"
+    android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            style="@style/labels" />
+
+        <TextView
+            android:id="@+id/wifi_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wifi_name"
+            style="@style/freeText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            style="@style/labels" />
+
+        <TextView
+            android:id="@+id/wifi_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wifi_name"
+            style="@style/freeText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strength: "
+            style="@style/labels" />
+
+        <TextView
+            android:id="@+id/wifi_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            style="@style/freeText"
+            android:text="wifi_strength" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capabilities: "
+            style="@style/labels" />
+
+        <TextView
+            android:id="@+id/wifi_capabilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/freeText"
+            android:text="wifi_capabilities" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue Name: "
+            style="@style/labels" />
+
+        <TextView
+            android:id="@+id/wifi_venueName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="venueName"
+            style="@style/freeText" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_wifi_info"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="@string/wifi_info" />
+</LinearLayout>

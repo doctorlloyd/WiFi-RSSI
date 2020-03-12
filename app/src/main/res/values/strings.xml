@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Wifi</string>
+    <string name="scan_wifi">Scan WiFi</string>
+    <string name="wifi_info">Submit WiFi Info</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="wifi_name">wifi_name</string>
+    <string name="strength">Strength:</string>
+    <string name="wifi_strength">wifi_strength</string>
+    <string name="capabilities">Capabilities:</string>
+    <string name="wifi_capabilities">wifi_capabilities</string>
+    <string name="venue_name">Venue Name:</string>
+    <string name="submit_list">Submit List</string>
+</resources>
